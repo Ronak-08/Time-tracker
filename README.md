@@ -1,42 +1,60 @@
-# sv
 
-Everything you need to build a Svelte project, powered by [`sv`](https://github.com/sveltejs/cli).
+# ⏳ timetick
 
-## Creating a project
+A modern, minimal, and lightning-fast time tracking web app built to help you focus on what matters without the friction. 
 
-If you're seeing this, you've probably already done this step. Congrats!
+Just type what you're doing, hit start, and let it tick.
 
-```sh
-# create a new project
-npx sv create my-app
+---
+
+## ✨ Features
+
+* **One-Click Tracking:** Enter a title, click start, and you're off.
+* **Background Execution:** Keeps tracking seamlessly even if you switch tabs or minimize the app.
+* **Material 3 Design:** Clean, and intuitive UI powered by the `m3-svelte` component library.
+* **Detailed Analytics:** Get instant insights into your productivity with built-in stats:
+  * Today's Focused Time
+  * Total Sessions & Average Session Length
+  * Last 7 Days Activity History
+  * All-Time Total Tracked Time
+* **Minimalist Philosophy:** Zero bloat, no complex configurations—just pure focus.
+
+---
+
+## 🚀 Tech Stack
+
+* **Framework:** [SvelteKit](https://kit.svelte.dev/)
+* **UI Library:** Material 3 (via `m3-svelte`)
+* **State Management & Background Sync:** Svelte stores & Service Workers
+
+---
+
+## 🛠️ Getting Started
+
+### Installation
+
+1. **Clone the repository:**
+   ```bash
+   git clone [https://github.com/Ronak-08/Time-tracker.git](https://github.com/Ronak-08/Time-tracker.git)
+   cd Time-tracker
+
 ```
-
-To recreate this project with the same configuration:
-
-```sh
-# recreate this project
-npx sv create --template minimal --no-types --add prettier tailwindcss="plugins:typography" --install npm TimeTracker
-```
-
-## Developing
-
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
-
-```sh
-npm run dev
-
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
-```
-
-## Building
-
-To create a production version of your app:
-
-```sh
+ 2. **Install dependencies:**
+   ```bash
+   npm install
+   
+   ```
+ 3. **Start the development server:**
+   ```bash
+   npm run dev -- --open
+   
+   ```
+## 📦 Building for Production
+To create a production-ready build of the app:
+```bash
 npm run build
+
 ```
-
-You can preview the production build with `npm run preview`.
-
-> To deploy your app, you may need to install an [adapter](https://svelte.dev/docs/kit/adapters) for your target environment.
+You can preview the production build locally using npm run preview.
+## 📄 License
+This project is licensed under the MIT License - see the LICENSE file for details.
