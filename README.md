@@ -34,27 +34,27 @@ Just type what you're doing, hit start, and let it tick.
 ### Installation
 
 1. **Clone the repository:**
-   ```bash
-   git clone [https://github.com/Ronak-08/Time-tracker.git](https://github.com/Ronak-08/Time-tracker.git)
+   ```
+   git clone https://github.com/Ronak-08/Time-tracker.git
    cd Time-tracker
 
-```
+   ```
  2. **Install dependencies:**
-   ```bash
+   ```
    npm install
    
    ```
  3. **Start the development server:**
-   ```bash
+   ```
    npm run dev -- --open
    
    ```
 ## 📦 Building for Production
 To create a production-ready build of the app:
-```bash
+  ```
 npm run build
 
-```
+  ```
 You can preview the production build locally using npm run preview.
 ## 📄 License
 This project is licensed under the MIT License - see the LICENSE file for details.
